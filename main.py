@@ -115,7 +115,7 @@ def draw_mstp_spanning_tree_with_animation(num_nodes):
     text_turtle.penup()
     text_turtle.color(TEXT_COLOR)
     text_turtle.goto(0, 250)
-    text_turtle.write("MSTP Spanning Tree Animation", align="center", font=("Arial", 16, "bold"))
+    text_turtle.write("MSTP Spanning Tree", align="center", font=("Arial", 16, "bold"))
     text_turtle.goto(0, 200)
     text_turtle.write("Extends RSTP to support multiple VLANs, optimizing network resource utilization by creating multiple spanning trees.", align="center", font=("Arial", 12, "normal"))
 
@@ -158,7 +158,7 @@ def draw_pvstp_spanning_tree_with_animation(num_nodes):
     text_turtle.penup()
     text_turtle.color(TEXT_COLOR)
     text_turtle.goto(0, 250)
-    text_turtle.write("PVSTP Spanning Tree Animation", align="center", font=("Arial", 16, "bold"))
+    text_turtle.write("PVSTP Spanning Tree", align="center", font=("Arial", 16, "bold"))
     text_turtle.goto(0, 200)
     text_turtle.write("Cisco's proprietary extension of STP, creating separate spanning tree instances for each VLAN to provide redundancy and load balancing.", align="center", font=("Arial", 12, "normal"))
 
@@ -204,7 +204,7 @@ def draw_spb_spanning_tree_with_animation(num_nodes):
     text_turtle.penup()
     text_turtle.color(TEXT_COLOR)
     text_turtle.goto(0, 250)
-    text_turtle.write("SPB Spanning Tree Animation", align="center", font=("Arial", 16, "bold"))
+    text_turtle.write("SPB Spanning Tree", align="center", font=("Arial", 16, "bold"))
     text_turtle.goto(0, 200)
     text_turtle.write(" IEEE 802.1aq enables the creation of multiple equal-cost spanning trees, enhancing scalability and convergence in large networks.", align="center", font=("Arial", 12, "normal"))
 

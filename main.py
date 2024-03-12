@@ -73,7 +73,7 @@ def draw_rstp_spanning_tree_with_animation(num_nodes):
     text_turtle.penup()
     text_turtle.color(TEXT_COLOR)
     text_turtle.goto(0, 250)
-    text_turtle.write("RSTP Spanning Tree Animation", align="center", font=("Arial", 16, "bold"))
+    text_turtle.write("RSTP Spanning Tree", align="center", font=("Arial", 16, "bold"))
     text_turtle.goto(0, 200)
     text_turtle.write("Enhances STP by reducing convergence times through the elimination of listening and learning states and the introduction of port roles and types.", align="center", font=("Arial", 12, "normal"))
 
